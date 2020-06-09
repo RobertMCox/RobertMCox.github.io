@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    
+<!--
+	Robert Cox and Artem Vityuk
+	03/21/2019
+	url: http://rcox.greenriverdev.com/207/finalProject/IT207FinalProjectHTML.html
+	Final Project for IT207 GRC WINTER19
+-->
+
+<html lang= "en">
+    <head>
+        <title>IT207 Final Project</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="IT207FinalProjectCSS.css">
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    </head>
+    <body>
+		<div id='form'>
+			<h1>Find Your Drink Game</h1>
+			<form id='drink-form' method='get'>
+                <div id='firstDiv'>
+                    <label>First Name: <span id='error-fname' class='hidden'>* required</span><br>
+                        <input type='text' id='fname'>
+                    </label>
+                    <br><br>
+                    <h3>Which of these do you prefer:</h3>
+                    <label>
+                        <input type='radio' id='coke' name='drinkChoice'> Coca-cola
+                    </label>
+                    <br>
+                    <label>
+                        <input type='radio' id='pepsi' name='drinkChoice'> Pepsi
+                    </label>
+                    <br>
+                    <label>
+                        <input type='radio' id='water' name='drinkChoice'> Fanta
+                    </label>
+                </div>
+                <br><br>
+			</form>
+		</div>
+		<canvas id='base'></canvas>
+        <script src='IT207FinalProjectJS.js'></script>
+    </body>
+</html>

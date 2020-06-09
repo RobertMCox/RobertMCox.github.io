@@ -1,0 +1,42 @@
+[
+	{
+		"key" : "coke-cherry",
+		"value" : "cherry-coke.jpg"
+	},
+	{
+		"key" : "coke-lemon",
+		"value" : "coke-lemon.jpg"
+	},
+	{
+		"key" : "coke-lime",
+		"value" : "coke-lime.jpg"
+	},
+	{
+		"key" : "coke-vanilla",
+		"value" : "coke-vanilla.jpg"
+	},
+	{
+		"key" : "coke-regular",
+		"value" : "cokeReagular.jpg"
+	},
+	{
+		"key" : "fanta-strawberry",
+		"value" : "fanta-strawberry.jpg"
+	},
+	{
+		"key" : "fanta-orange",
+		"value" : "fanta.jpg"
+	},
+	{
+		"key" : "pepsi-cherry",
+		"value" : "pepsi-cherry.jpg"
+	},
+	{
+		"key" : "pepsi-lime",
+		"value" : "pepsi-lime.jpg"
+	},
+	{
+		"key" : "pepsi-regular",
+		"value" : "pepsi.jpg"
+	}
+]
